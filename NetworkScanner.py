@@ -1,9 +1,14 @@
 import scapy.all as scapy # importing scapy module
 import re # importing regular expression module
 import time # importing time module
-import pyfiglet # importing pyfiglet module
-text=pyfiglet.figlet_format("Mr.Blackhat")
-print(text)
+
+print("""
+ __  __      ____  _            _    _           _   
+|  \/  |_ __| __ )| | __ _  ___| | _| |__   __ _| |_ 
+| |\/| | '__|  _ \| |/ _` |/ __| |/ / '_ \ / _` | __|
+| |  | | | _| |_) | | (_| | (__|   <| | | | (_| | |_ 
+|_|  |_|_|(_)____/|_|\__,_|\___|_|\_\_| |_|\__,_|\__|
+""")
 
 ipregex=re.compile("^(?:[0-9]{1,3}\.){3}[0-9]{1,3}/[0-9]*$") # regular expression to match IP address range
 
