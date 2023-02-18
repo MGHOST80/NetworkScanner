@@ -9,6 +9,6 @@ This is a Simple NetworkScanner to Scan the IP range And Identify Which Devices 
 
   4.cd NetworkScanner
 
-  5.python3 NetworkScanner.py
+  5.python NetworkScanner.py
 
 Enter IP address range: for EX. 192.168.0.0/24 / 192.168.1.0/24
